@@ -1,4 +1,4 @@
-package gaybos.schedule_II;
+package drugs.downers;
 
 public class Cocaine
 {
