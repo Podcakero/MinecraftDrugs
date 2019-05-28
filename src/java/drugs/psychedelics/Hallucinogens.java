@@ -1,4 +1,4 @@
-package drugs.psychedelics;
+package java.drugs.psychedelics;
 
 public abstract class Hallucinogens
 {

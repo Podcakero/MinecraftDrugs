@@ -1,0 +1,10 @@
+[{
+  "modid": "drugs",
+  "name": "Drugs Mod",
+  "description": "Drugs",
+  "version": "0.0.0.1",
+  "mcversion": "1.12.0",
+  "updateJSON": "minecraftforge.net/versions.json",
+  "authorList": ["perso45", "Podcakero"],
+  "credits": "I'd like to thank my mother and not my father."
+}]

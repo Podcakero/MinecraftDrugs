@@ -1,4 +1,4 @@
-package drugs.psychedelics;
+package java.drugs.psychedelics;
 
 public class CBD extends Hemp
 {
