@@ -1,5 +1,4 @@
 # eclipse
-bin
 
 # idea
 out
@@ -11,5 +10,3 @@ out
 # gradle
 
 # other
-eclipse
-run
