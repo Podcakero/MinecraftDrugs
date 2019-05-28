@@ -1,4 +1,4 @@
-package drugs.downers;
+package drugs.uppers;
 
 public class Meth extends Amphetamine
 {
