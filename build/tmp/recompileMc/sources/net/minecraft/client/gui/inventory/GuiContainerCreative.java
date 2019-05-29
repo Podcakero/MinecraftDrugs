@@ -431,7 +431,7 @@ public class GuiContainerCreative extends InventoryEffectRenderer
         if (creativetabs != null && creativetabs.drawInForegroundOfTab())
         {
             GlStateManager.disableBlend();
-            this.fontRenderer.drawString(I18n.format(creativetabs.getTranslatedTabLabel()), 8, 6, creativetabs.getLabelColor());
+            this.fontRenderer.drawString(I18n.format(creativetabs.getTranslatedTabLabel()), 8, 6, 4210752);
         }
     }
 
@@ -762,7 +762,7 @@ public class GuiContainerCreative extends InventoryEffectRenderer
             {
                 if (i == 0)
                 {
-                    list.set(i, stack.getItem().getForgeRarity(stack).getColor() + (String)list.get(i));
+                    list.set(i, stack.getRarity().rarityColor + (String)list.get(i));
                 }
                 else
                 {

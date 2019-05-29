@@ -322,7 +322,7 @@ public class ItemRenderer
         {
             ItemStack itemstack = abstractclientplayer.getActiveItemStack();
 
-            if (itemstack.getItem() instanceof net.minecraft.item.ItemBow)
+            if (!itemstack.isEmpty() && itemstack.getItem() == Items.BOW) //Forge: Data watcher can desync and cause this to NPE...
             {
                 EnumHand enumhand1 = abstractclientplayer.getActiveHand();
                 flag = enumhand1 == EnumHand.MAIN_HAND;

@@ -114,7 +114,7 @@ public class BlockFarmland extends Block
             }
         }
 
-        return net.minecraftforge.common.FarmlandWaterManager.hasBlockWaterTicket(worldIn, pos);
+        return false;
     }
 
     /**

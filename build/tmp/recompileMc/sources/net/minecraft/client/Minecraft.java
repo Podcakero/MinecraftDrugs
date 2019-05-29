@@ -376,7 +376,6 @@ public class Minecraft implements IThreadListener, ISnooperInfo
     public Minecraft(GameConfiguration gameConfig)
     {
         instance = this;
-        net.minecraftforge.client.ForgeHooksClient.invalidateLog4jThreadCache();
         this.mcDataDir = gameConfig.folderInfo.mcDataDir;
         this.fileAssets = gameConfig.folderInfo.assetsDir;
         this.fileResourcepacks = gameConfig.folderInfo.resourcePacksDir;
@@ -2511,9 +2510,9 @@ public class Minecraft implements IThreadListener, ISnooperInfo
 
         this.loadingScreen.displaySavingString(I18n.format("menu.loadingLevel"));
 
-        while (!this.integratedServer.serverIsInRunLoop())
+        while (!this.integratedServer.serverIsInRunLoop() && !this.integratedServer.isServerStopped())
         {
-            if (!net.minecraftforge.fml.common.StartupQuery.check() || this.integratedServer.isServerStopped())
+            if (!net.minecraftforge.fml.common.StartupQuery.check())
             {
                 loadWorld(null);
                 displayGuiScreen(null);

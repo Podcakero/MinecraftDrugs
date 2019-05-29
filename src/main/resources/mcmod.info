@@ -1,0 +1,9 @@
+[{
+  "modid": "drugs",
+  "name": "Minecraft Drugs",
+  "description": "Lets you Make drugs.",
+  "version": "0.0.1",
+  "mcversion": "1.12.2",
+  "authorList": ["Person45", "Podcakero"],
+  "credits": "I'd like to thank my mother."
+}]

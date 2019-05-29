@@ -1,12 +1,1 @@
-# eclipse
-
-# idea
-out
-*.ipr
-*.iws
-*.iml
-.idea
-
-# gradle
-
-# other
+/bin/

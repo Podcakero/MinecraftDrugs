@@ -20,6 +20,7 @@ Download https://repo1.maven.org/maven2/net/java/dev/jna/platform/3.4.0/platform
 Download https://libraries.minecraft.net/com/ibm/icu/icu4j-core-mojang/51.2/icu4j-core-mojang-51.2-sources.jar
 Download https://repo1.maven.org/maven2/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3-sources.jar
 Download https://repo1.maven.org/maven2/io/netty/netty-all/4.1.9.Final/netty-all-4.1.9.Final-sources.jar
+Download https://repo1.maven.org/maven2/com/google/guava/guava/21.0/guava-21.0-sources.jar
 Download https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5-sources.jar
 Download https://repo1.maven.org/maven2/commons-io/commons-io/2.5/commons-io-2.5-sources.jar
 Download https://repo1.maven.org/maven2/commons-codec/commons-codec/1.10/commons-codec-1.10-sources.jar
@@ -69,6 +70,8 @@ Download https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/3.1.0/p
 :extractUserdev UP-TO-DATE
 :getAssetIndex UP-TO-DATE
 :getAssets
+Current status: 878/1305   67%
+Current status: 1071/1305   82%
 :makeStart
 :makeEclipseCleanRunClient
 :makeEclipseCleanRunServer
@@ -76,4 +79,4 @@ Download https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/3.1.0/p
 
 BUILD SUCCESSFUL
 
-Total time: 35.272 secs
+Total time: 2 mins 56.062 secs

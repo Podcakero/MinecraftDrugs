@@ -89,7 +89,7 @@ public class GuiConfig extends GuiScreen
     /**
      * This constructor handles the {@code @Config} configuration classes
      * @param parentScreen the parent GuiScreen object
-     * @param modid the mod for which to create a screen
+     * @param mod the mod for which to create a screen
      */
     public GuiConfig(GuiScreen parentScreen, String modid, String title)
     {

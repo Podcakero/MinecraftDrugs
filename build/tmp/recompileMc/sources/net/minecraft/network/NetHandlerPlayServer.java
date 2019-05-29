@@ -396,13 +396,13 @@ public class NetHandlerPlayServer implements INetHandlerPlayServer, ITickable
                 }
 
                 entity.setPositionAndRotation(d3, d4, d5, f, f1);
-                this.player.setPositionAndRotation(d3, d4, d5, this.player.rotationYaw, this.player.rotationPitch); // Forge - Resync player position on vehicle moving
+                this.player.setPositionAndRotation(d3, d4, d5, f, f1); // Forge - Resync player position on vehicle moving
                 boolean flag2 = worldserver.getCollisionBoxes(entity, entity.getEntityBoundingBox().shrink(0.0625D)).isEmpty();
 
                 if (flag && (flag1 || !flag2))
                 {
                     entity.setPositionAndRotation(d0, d1, d2, f, f1);
-                    this.player.setPositionAndRotation(d0, d1, d2, this.player.rotationYaw, this.player.rotationPitch); // Forge - Resync player position on vehicle moving
+                    this.player.setPositionAndRotation(d0, d1, d2, f, f1); // Forge - Resync player position on vehicle moving
                     this.netManager.sendPacket(new SPacketMoveVehicle(entity));
                     return;
                 }
@@ -827,13 +827,12 @@ public class NetHandlerPlayServer implements INetHandlerPlayServer, ITickable
                 {
                     this.player.setPositionAndUpdate(entity.posX, entity.posY, entity.posZ);
                 }
-                else if (net.minecraftforge.common.ForgeHooks.onTravelToDimension(this.player, entity.dimension))
+                else
                 {
-                    int prevDimension = this.player.dimension;
                     WorldServer worldserver1 = this.player.getServerWorld();
                     WorldServer worldserver2 = (WorldServer)entity.world;
                     this.player.dimension = entity.dimension;
-                    this.sendPacket(new SPacketRespawn(this.player.dimension, worldserver2.getDifficulty(), worldserver2.getWorldInfo().getTerrainType(), this.player.interactionManager.getGameType())); // Forge: Use new dimensions information
+                    this.sendPacket(new SPacketRespawn(this.player.dimension, worldserver1.getDifficulty(), worldserver1.getWorldInfo().getTerrainType(), this.player.interactionManager.getGameType()));
                     this.serverController.getPlayerList().updatePermissionLevel(this.player);
                     worldserver1.removeEntityDangerously(this.player);
                     this.player.isDead = false;
@@ -852,7 +851,6 @@ public class NetHandlerPlayServer implements INetHandlerPlayServer, ITickable
                     this.player.interactionManager.setWorld(worldserver2);
                     this.serverController.getPlayerList().updateTimeAndWeatherForPlayer(this.player, worldserver2);
                     this.serverController.getPlayerList().syncPlayerInventory(this.player);
-                    net.minecraftforge.fml.common.FMLCommonHandler.instance().firePlayerChangedDimensionEvent(this.player, prevDimension, this.player.dimension);
                 }
             }
         }

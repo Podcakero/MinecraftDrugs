@@ -35,6 +35,7 @@ import java.util.Set;
 import java.util.regex.Pattern;
 
 import javax.annotation.Nullable;
+import javax.vecmath.Matrix3f;
 import javax.vecmath.Matrix4f;
 import javax.vecmath.Vector2f;
 import javax.vecmath.Vector3f;
@@ -844,6 +845,8 @@ public class OBJModel implements IModel
 
         public Face bake(TRSRTransformation transform)
         {
+            Matrix4f m = transform.getMatrix();
+            Matrix3f mn = null;
             Vertex[] vertices = new Vertex[verts.length];
 //            Normal[] normals = norms != null ? new Normal[norms.length] : null;
 //            TextureCoordinate[] textureCoords = texCoords != null ? new TextureCoordinate[texCoords.length] : null;
@@ -854,16 +857,24 @@ public class OBJModel implements IModel
 //                Normal n = norms != null ? norms[i] : null;
 //                TextureCoordinate t = texCoords != null ? texCoords[i] : null;
 
-                Vector4f pos = new Vector4f(v.getPos());
+                Vector4f pos = new Vector4f(v.getPos()), newPos = new Vector4f();
                 pos.w = 1;
-                transform.transformPosition(pos);
-                vertices[i] = new Vertex(pos, v.getMaterial());
+                m.transform(pos, newPos);
+                vertices[i] = new Vertex(newPos, v.getMaterial());
 
                 if (v.hasNormal())
                 {
-                    Vector3f normal = new Vector3f(v.getNormal().getData());
-                    transform.transformNormal(normal);
-                    vertices[i].setNormal(new Normal(normal));
+                    if(mn == null)
+                    {
+                        mn = new Matrix3f();
+                        m.getRotationScale(mn);
+                        mn.invert();
+                        mn.transpose();
+                    }
+                    Vector3f normal = new Vector3f(v.getNormal().getData()), newNormal = new Vector3f();
+                    mn.transform(normal, newNormal);
+                    newNormal.normalize();
+                    vertices[i].setNormal(new Normal(newNormal));
                 }
 
                 if (v.hasTextureCoordinate()) vertices[i].setTextureCoordinate(v.getTextureCoordinate());

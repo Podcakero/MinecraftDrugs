@@ -483,7 +483,6 @@ public class Item extends net.minecraftforge.registries.IForgeRegistryEntry.Impl
     /**
      * Return an item rarity from EnumRarity
      */
-    @Deprecated // use Forge version
     public EnumRarity getRarity(ItemStack stack)
     {
         return stack.isItemEnchanted() ? EnumRarity.RARE : EnumRarity.COMMON;
@@ -663,15 +662,6 @@ public class Item extends net.minecraftforge.registries.IForgeRegistryEntry.Impl
     {
         canRepair = false;
         return this;
-    }
-
-    /**
-     * Determines the amount of durability the mending enchantment
-     * will repair, on average, per point of experience.
-     */
-    public float getXpRepairRatio(ItemStack stack)
-    {
-        return 2f;
     }
 
     /**
@@ -1214,19 +1204,6 @@ public class Item extends net.minecraftforge.registries.IForgeRegistryEntry.Impl
     }
 
     /**
-     * Called while an item is in 'active' use to determine if usage should continue.
-     * Allows items to continue being used while sustaining damage, for example.
-     *
-     * @param oldStack the previous 'active' stack
-     * @param newStack the stack currently in the active hand
-     * @return true to set the new stack to active and continue using it
-     */
-    public boolean canContinueUsing(ItemStack oldStack, ItemStack newStack)
-    {
-        return oldStack.equals(newStack);
-    }
-
-    /**
      * Called to get the Mod ID of the mod that *created* the ItemStack,
      * instead of the real Mod ID that *registered* it.
      *
@@ -1357,12 +1334,7 @@ public class Item extends net.minecraftforge.registries.IForgeRegistryEntry.Impl
     public void setTileEntityItemStackRenderer(@Nullable net.minecraft.client.renderer.tileentity.TileEntityItemStackRenderer teisr)
     {
     	this.teisr = teisr;
-    }
-
-    public net.minecraftforge.common.IRarity getForgeRarity(ItemStack stack)
-    {
-        return this.getRarity(stack);
-    }
+    }  
 
     /* ======================================== FORGE END   =====================================*/
 

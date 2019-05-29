@@ -176,7 +176,7 @@ public final class ModelDynBucket implements IModel
             }
         }
 
-        return new BakedDynBucket(this, builder.build(), particleSprite, format, Maps.immutableEnumMap(transformMap), Maps.newHashMap(), transform.isIdentity());
+        return new BakedDynBucket(this, builder.build(), particleSprite, format, Maps.immutableEnumMap(transformMap), Maps.newHashMap());
     }
 
     /**
@@ -453,15 +453,14 @@ public final class ModelDynBucket implements IModel
         private final Map<String, IBakedModel> cache; // contains all the baked models since they'll never change
         private final VertexFormat format;
 
-        BakedDynBucket(ModelDynBucket parent,
-                       ImmutableList<BakedQuad> quads,
-                       TextureAtlasSprite particle,
-                       VertexFormat format,
-                       ImmutableMap<TransformType, TRSRTransformation> transforms,
-                       Map<String, IBakedModel> cache,
-                       boolean untransformed)
+        public BakedDynBucket(ModelDynBucket parent,
+                              ImmutableList<BakedQuad> quads,
+                              TextureAtlasSprite particle,
+                              VertexFormat format,
+                              ImmutableMap<TransformType, TRSRTransformation> transforms,
+                              Map<String, IBakedModel> cache)
         {
-            super(quads, particle, transforms, BakedDynBucketOverrideHandler.INSTANCE, untransformed);
+            super(quads, particle, transforms, BakedDynBucketOverrideHandler.INSTANCE);
             this.format = format;
             this.parent = parent;
             this.cache = cache;

@@ -218,7 +218,7 @@ public abstract class AbstractSkeleton extends EntityMob implements IRangedAttac
             this.tasks.removeTask(this.aiArrowAttack);
             ItemStack itemstack = this.getHeldItemMainhand();
 
-            if (itemstack.getItem() instanceof net.minecraft.item.ItemBow)
+            if (itemstack.getItem() == Items.BOW)
             {
                 int i = 20;
 
@@ -243,8 +243,6 @@ public abstract class AbstractSkeleton extends EntityMob implements IRangedAttac
     public void attackEntityWithRangedAttack(EntityLivingBase target, float distanceFactor)
     {
         EntityArrow entityarrow = this.getArrow(distanceFactor);
-        if (this.getHeldItemMainhand().getItem() instanceof net.minecraft.item.ItemBow)
-            entityarrow = ((net.minecraft.item.ItemBow) this.getHeldItemMainhand().getItem()).customizeArrow(entityarrow);
         double d0 = target.posX - this.posX;
         double d1 = target.getEntityBoundingBox().minY + (double)(target.height / 3.0F) - entityarrow.posY;
         double d2 = target.posZ - this.posZ;

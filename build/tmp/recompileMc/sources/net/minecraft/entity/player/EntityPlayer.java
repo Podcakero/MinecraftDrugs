@@ -1672,7 +1672,7 @@ public abstract class EntityPlayer extends EntityLivingBase
                 return EntityPlayer.SleepResult.NOT_POSSIBLE_HERE;
             }
 
-            if (!net.minecraftforge.event.ForgeEventFactory.fireSleepingTimeCheck(this, bedLocation))
+            if (!net.minecraftforge.event.ForgeEventFactory.fireSleepingTimeCheck(this, this.bedLocation))
             {
                 return EntityPlayer.SleepResult.NOT_POSSIBLE_NOW;
             }

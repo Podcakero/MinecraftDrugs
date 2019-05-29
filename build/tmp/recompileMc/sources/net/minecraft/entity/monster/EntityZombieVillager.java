@@ -116,7 +116,7 @@ public class EntityZombieVillager extends EntityZombie
     @Nullable
     public IEntityLivingData onInitialSpawn(DifficultyInstance difficulty, @Nullable IEntityLivingData livingdata)
     {
-        net.minecraftforge.fml.common.registry.VillagerRegistry.setRandomProfession(this, this.world.rand);
+        this.setProfession(this.world.rand.nextInt(6));
         return super.onInitialSpawn(difficulty, livingdata);
     }
 

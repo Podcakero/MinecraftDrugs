@@ -684,7 +684,7 @@ public class EntityVillager extends EntityAgeable implements INpc, IMerchant
             this.populateBuyingList();
         }
 
-        return net.minecraftforge.event.ForgeEventFactory.listTradeOffers(this, player, buyingList);
+        return this.buyingList;
     }
 
     private void populateBuyingList()
