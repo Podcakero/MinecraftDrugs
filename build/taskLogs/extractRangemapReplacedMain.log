@@ -1,0 +1,55 @@
+Symbol range map extraction starting
+Processing 14 files
+startProcessing "com/podandperson/drugs/Drugs.java" md5: 29cde1ade78842fff66db6ba075b9c42
+endProcessing "com/podandperson/drugs/Drugs.java"
+
+startProcessing "com/podandperson/drugs/common/psychedelics/CBD.java" md5: 64e9f3bec63d51a4baae6e930b54e1b5
+Cache Hit!
+endProcessing "com/podandperson/drugs/common/psychedelics/CBD.java"
+
+startProcessing "com/podandperson/drugs/common/psychedelics/Cannabis.java" md5: 9c974e924b2febd41d20027d04b7c802
+Cache Hit!
+endProcessing "com/podandperson/drugs/common/psychedelics/Cannabis.java"
+
+startProcessing "com/podandperson/drugs/common/psychedelics/Hallucinogens.java" md5: 71cdcb376633d6f9cc83884f863b1070
+Cache Hit!
+endProcessing "com/podandperson/drugs/common/psychedelics/Hallucinogens.java"
+
+startProcessing "com/podandperson/drugs/common/psychedelics/Hemp.java" md5: d0f2b0d467766a7b244c65f9a26029d9
+Cache Hit!
+endProcessing "com/podandperson/drugs/common/psychedelics/Hemp.java"
+
+startProcessing "com/podandperson/drugs/common/psychedelics/LSD.java" md5: 66abef74d5955f6d0f950c35c432aab2
+Cache Hit!
+endProcessing "com/podandperson/drugs/common/psychedelics/LSD.java"
+
+startProcessing "com/podandperson/drugs/common/psychedelics/Marijuana.java" md5: eca92175be38a8d04c6b37d2dbf67f1e
+Cache Hit!
+endProcessing "com/podandperson/drugs/common/psychedelics/Marijuana.java"
+
+startProcessing "com/podandperson/drugs/common/psychedelics/Mushrooms.java" md5: 79c0cae4298b6d6e81b00b701d0cf9c6
+Cache Hit!
+endProcessing "com/podandperson/drugs/common/psychedelics/Mushrooms.java"
+
+startProcessing "com/podandperson/drugs/common/uppers/Adderall.java" md5: f7a7e20f2dc492dce99b80e3a90ac221
+Cache Hit!
+endProcessing "com/podandperson/drugs/common/uppers/Adderall.java"
+
+startProcessing "com/podandperson/drugs/common/uppers/Amphetamine.java" md5: 739481cc7c8fc8ded79e04b80b90df2f
+Cache Hit!
+endProcessing "com/podandperson/drugs/common/uppers/Amphetamine.java"
+
+startProcessing "com/podandperson/drugs/common/uppers/Cocaine.java" md5: 701036d19b9c42681d97fedb853a049b
+Cache Hit!
+endProcessing "com/podandperson/drugs/common/uppers/Cocaine.java"
+
+startProcessing "com/podandperson/drugs/common/uppers/Meth.java" md5: 1e95679e2eb4468c6509289e0513cae2
+Cache Hit!
+endProcessing "com/podandperson/drugs/common/uppers/Meth.java"
+
+startProcessing "com/podandperson/drugs/proxy/ClientProxy.java" md5: 2b2b3312d753b61a9c5d7ccdfb14dd25
+endProcessing "com/podandperson/drugs/proxy/ClientProxy.java"
+
+startProcessing "com/podandperson/drugs/proxy/IProxy.java" md5: 8bd457202b03fc2d34105ee87fd0a929
+endProcessing "com/podandperson/drugs/proxy/IProxy.java"
+

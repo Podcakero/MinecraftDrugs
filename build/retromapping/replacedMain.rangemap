@@ -1,0 +1,235 @@
+Symbol range map extraction starting
+Processing 14 files
+startProcessing "com/podandperson/drugs/Drugs.java" md5: 29cde1ade78842fff66db6ba075b9c42
+@|com/podandperson/drugs/Drugs.java|8|40|main.java.com.podandperson.drugs|package|main.java.com.podandperson.drugs|(file)
+Class Start: main.java.com.podandperson.drugs.Drugs
+   @|com/podandperson/drugs/Drugs.java|524|527|Mod|class|net.minecraftforge.fml.common.Mod
+   @|com/podandperson/drugs/Drugs.java|528|533|modid|method|net.minecraftforge.fml.common.Mod|modid|()Ljava/lang/String;
+   @|com/podandperson/drugs/Drugs.java|536|541|Drugs|class|main.java.com.podandperson.drugs.Drugs
+   @|com/podandperson/drugs/Drugs.java|542|547|MODID|field|main.java.com.podandperson.drugs.Drugs|MODID
+   @|com/podandperson/drugs/Drugs.java|549|553|name|method|net.minecraftforge.fml.common.Mod|name|()Ljava/lang/String;
+   @|com/podandperson/drugs/Drugs.java|556|561|Drugs|class|main.java.com.podandperson.drugs.Drugs
+   @|com/podandperson/drugs/Drugs.java|562|566|NAME|field|main.java.com.podandperson.drugs.Drugs|NAME
+   @|com/podandperson/drugs/Drugs.java|568|575|version|method|net.minecraftforge.fml.common.Mod|version|()Ljava/lang/String;
+   @|com/podandperson/drugs/Drugs.java|578|583|Drugs|class|main.java.com.podandperson.drugs.Drugs
+   @|com/podandperson/drugs/Drugs.java|584|591|VERSION|field|main.java.com.podandperson.drugs.Drugs|VERSION
+   @|com/podandperson/drugs/Drugs.java|593|618|acceptedMinecraftVersions|method|net.minecraftforge.fml.common.Mod|acceptedMinecraftVersions|()Ljava/lang/String;
+   @|com/podandperson/drugs/Drugs.java|621|626|Drugs|class|main.java.com.podandperson.drugs.Drugs
+   @|com/podandperson/drugs/Drugs.java|627|637|MC_VERSION|field|main.java.com.podandperson.drugs.Drugs|MC_VERSION
+   @|com/podandperson/drugs/Drugs.java|652|657|Drugs|class|main.java.com.podandperson.drugs.Drugs
+   @|com/podandperson/drugs/Drugs.java|682|688|String|class|java.lang.String
+   @|com/podandperson/drugs/Drugs.java|682|688|String|class|java.lang.String
+   @|com/podandperson/drugs/Drugs.java|689|694|MODID|field|main.java.com.podandperson.drugs.Drugs|MODID|
+   @|com/podandperson/drugs/Drugs.java|727|733|String|class|java.lang.String
+   @|com/podandperson/drugs/Drugs.java|727|733|String|class|java.lang.String
+   @|com/podandperson/drugs/Drugs.java|734|738|NAME|field|main.java.com.podandperson.drugs.Drugs|NAME|
+   @|com/podandperson/drugs/Drugs.java|781|787|String|class|java.lang.String
+   @|com/podandperson/drugs/Drugs.java|781|787|String|class|java.lang.String
+   @|com/podandperson/drugs/Drugs.java|788|795|VERSION|field|main.java.com.podandperson.drugs.Drugs|VERSION|
+   @|com/podandperson/drugs/Drugs.java|828|834|String|class|java.lang.String
+   @|com/podandperson/drugs/Drugs.java|828|834|String|class|java.lang.String
+   @|com/podandperson/drugs/Drugs.java|835|845|MC_VERSION|field|main.java.com.podandperson.drugs.Drugs|MC_VERSION|
+   @|com/podandperson/drugs/Drugs.java|882|888|Logger|class|org.apache.logging.log4j.Logger
+   @|com/podandperson/drugs/Drugs.java|882|888|Logger|class|org.apache.logging.log4j.Logger
+   @|com/podandperson/drugs/Drugs.java|889|895|LOGGER|field|main.java.com.podandperson.drugs.Drugs|LOGGER|
+   @|com/podandperson/drugs/Drugs.java|898|908|LogManager|class|org.apache.logging.log4j.LogManager
+   @|com/podandperson/drugs/Drugs.java|909|918|getLogger|method|org.apache.logging.log4j.LogManager|getLogger|(Ljava/lang/String;)Lorg/apache/logging/log4j/Logger;
+   @|com/podandperson/drugs/Drugs.java|919|924|Drugs|class|main.java.com.podandperson.drugs.Drugs
+   @|com/podandperson/drugs/Drugs.java|925|930|MODID|field|main.java.com.podandperson.drugs.Drugs|MODID
+   @|com/podandperson/drugs/Drugs.java|955|961|String|class|java.lang.String
+   @|com/podandperson/drugs/Drugs.java|955|961|String|class|java.lang.String
+   @|com/podandperson/drugs/Drugs.java|962|968|CLIENT|field|main.java.com.podandperson.drugs.Drugs|CLIENT|
+   @|com/podandperson/drugs/Drugs.java|1036|1042|String|class|java.lang.String
+   @|com/podandperson/drugs/Drugs.java|1036|1042|String|class|java.lang.String
+   @|com/podandperson/drugs/Drugs.java|1043|1049|SERVER|field|main.java.com.podandperson.drugs.Drugs|SERVER|
+   @|com/podandperson/drugs/Drugs.java|1178|1184|IProxy|class|com.podandperson.drugs.proxy.IProxy
+   @|com/podandperson/drugs/Drugs.java|1098|1108|SidedProxy|class|net.minecraftforge.fml.common.SidedProxy
+   @|com/podandperson/drugs/Drugs.java|1109|1119|clientSide|method|net.minecraftforge.fml.common.SidedProxy|clientSide|()Ljava/lang/String;
+   @|com/podandperson/drugs/Drugs.java|1122|1127|Drugs|class|main.java.com.podandperson.drugs.Drugs
+   @|com/podandperson/drugs/Drugs.java|1128|1134|CLIENT|field|main.java.com.podandperson.drugs.Drugs|CLIENT
+   @|com/podandperson/drugs/Drugs.java|1136|1146|serverSide|method|net.minecraftforge.fml.common.SidedProxy|serverSide|()Ljava/lang/String;
+   @|com/podandperson/drugs/Drugs.java|1149|1154|Drugs|class|main.java.com.podandperson.drugs.Drugs
+   @|com/podandperson/drugs/Drugs.java|1155|1161|SERVER|field|main.java.com.podandperson.drugs.Drugs|SERVER
+   @|com/podandperson/drugs/Drugs.java|1178|1184|IProxy|class|com.podandperson.drugs.proxy.IProxy
+   @|com/podandperson/drugs/Drugs.java|1185|1190|proxy|field|main.java.com.podandperson.drugs.Drugs|proxy|
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com/podandperson/drugs/Drugs.java|1255|1260|event|param|main.java.com.podandperson.drugs.Drugs|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|com/podandperson/drugs/Drugs.java|1195|1207|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|com/podandperson/drugs/Drugs.java|1221|1228|preInit|method|main.java.com.podandperson.drugs.Drugs|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com/podandperson/drugs/Drugs.java|1229|1254|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|com/podandperson/drugs/Drugs.java|1266|1271|proxy|field|main.java.com.podandperson.drugs.Drugs|proxy
+      @|com/podandperson/drugs/Drugs.java|1272|1279|preInit|method|com.podandperson.drugs.proxy.IProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com/podandperson/drugs/Drugs.java|1280|1285|event|param|main.java.com.podandperson.drugs.Drugs|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com/podandperson/drugs/Drugs.java|1348|1353|event|param|main.java.com.podandperson.drugs.Drugs|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|com/podandperson/drugs/Drugs.java|1294|1306|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|com/podandperson/drugs/Drugs.java|1320|1324|init|method|main.java.com.podandperson.drugs.Drugs|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com/podandperson/drugs/Drugs.java|1325|1347|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|com/podandperson/drugs/Drugs.java|1359|1365|LOGGER|field|main.java.com.podandperson.drugs.Drugs|LOGGER
+      @|com/podandperson/drugs/Drugs.java|1366|1370|info|method|org.apache.logging.log4j.Logger|info|(Ljava/lang/String;)V
+      @|com/podandperson/drugs/Drugs.java|1371|1376|Drugs|class|main.java.com.podandperson.drugs.Drugs
+      @|com/podandperson/drugs/Drugs.java|1377|1381|NAME|field|main.java.com.podandperson.drugs.Drugs|NAME
+      @|com/podandperson/drugs/Drugs.java|1386|1391|proxy|field|main.java.com.podandperson.drugs.Drugs|proxy
+      @|com/podandperson/drugs/Drugs.java|1392|1396|init|method|com.podandperson.drugs.proxy.IProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com/podandperson/drugs/Drugs.java|1397|1402|event|param|main.java.com.podandperson.drugs.Drugs|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com/podandperson/drugs/Drugs.java|1473|1478|event|param|main.java.com.podandperson.drugs.Drugs|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+      @|com/podandperson/drugs/Drugs.java|1411|1423|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|com/podandperson/drugs/Drugs.java|1437|1445|postInit|method|main.java.com.podandperson.drugs.Drugs|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com/podandperson/drugs/Drugs.java|1446|1472|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+      @|com/podandperson/drugs/Drugs.java|1484|1489|proxy|field|main.java.com.podandperson.drugs.Drugs|proxy
+      @|com/podandperson/drugs/Drugs.java|1490|1498|postInit|method|com.podandperson.drugs.proxy.IProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com/podandperson/drugs/Drugs.java|1499|1504|event|param|main.java.com.podandperson.drugs.Drugs|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+   Method End: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+Class End  : main.java.com.podandperson.drugs.Drugs
+endProcessing "com/podandperson/drugs/Drugs.java"
+
+startProcessing "com/podandperson/drugs/common/psychedelics/CBD.java" md5: 64e9f3bec63d51a4baae6e930b54e1b5
+Cache Hit!
+    Compile Error! Pb(2) Hemp cannot be resolved to a type
+@|com/podandperson/drugs/common/psychedelics/CBD.java|8|60|main.java.com.podandperson.drugs.common.psychedelics|package|main.java.com.podandperson.drugs.common.psychedelics|(file)
+Class Start: main.java.com.podandperson.drugs.common.psychedelics.CBD
+   @|com/podandperson/drugs/common/psychedelics/CBD.java|76|79|CBD|class|main.java.com.podandperson.drugs.common.psychedelics.CBD
+   @|com/podandperson/drugs/common/psychedelics/CBD.java|88|92|Hemp|class|Hemp
+Class End  : main.java.com.podandperson.drugs.common.psychedelics.CBD
+endProcessing "com/podandperson/drugs/common/psychedelics/CBD.java"
+
+startProcessing "com/podandperson/drugs/common/psychedelics/Cannabis.java" md5: 9c974e924b2febd41d20027d04b7c802
+Cache Hit!
+@|com/podandperson/drugs/common/psychedelics/Cannabis.java|8|60|main.java.com.podandperson.drugs.common.psychedelics|package|main.java.com.podandperson.drugs.common.psychedelics|(file)
+Class Start: main.java.com.podandperson.drugs.common.psychedelics.Cannabis
+   @|com/podandperson/drugs/common/psychedelics/Cannabis.java|85|93|Cannabis|class|main.java.com.podandperson.drugs.common.psychedelics.Cannabis
+Class End  : main.java.com.podandperson.drugs.common.psychedelics.Cannabis
+endProcessing "com/podandperson/drugs/common/psychedelics/Cannabis.java"
+
+startProcessing "com/podandperson/drugs/common/psychedelics/Hallucinogens.java" md5: 71cdcb376633d6f9cc83884f863b1070
+Cache Hit!
+@|com/podandperson/drugs/common/psychedelics/Hallucinogens.java|8|60|main.java.com.podandperson.drugs.common.psychedelics|package|main.java.com.podandperson.drugs.common.psychedelics|(file)
+Class Start: main.java.com.podandperson.drugs.common.psychedelics.Hallucinogens
+   @|com/podandperson/drugs/common/psychedelics/Hallucinogens.java|85|98|Hallucinogens|class|main.java.com.podandperson.drugs.common.psychedelics.Hallucinogens
+Class End  : main.java.com.podandperson.drugs.common.psychedelics.Hallucinogens
+endProcessing "com/podandperson/drugs/common/psychedelics/Hallucinogens.java"
+
+startProcessing "com/podandperson/drugs/common/psychedelics/Hemp.java" md5: d0f2b0d467766a7b244c65f9a26029d9
+Cache Hit!
+    Compile Error! Pb(2) Cannabis cannot be resolved to a type
+@|com/podandperson/drugs/common/psychedelics/Hemp.java|8|60|main.java.com.podandperson.drugs.common.psychedelics|package|main.java.com.podandperson.drugs.common.psychedelics|(file)
+Class Start: main.java.com.podandperson.drugs.common.psychedelics.Hemp
+   @|com/podandperson/drugs/common/psychedelics/Hemp.java|76|80|Hemp|class|main.java.com.podandperson.drugs.common.psychedelics.Hemp
+   @|com/podandperson/drugs/common/psychedelics/Hemp.java|89|97|Cannabis|class|Cannabis
+Class End  : main.java.com.podandperson.drugs.common.psychedelics.Hemp
+endProcessing "com/podandperson/drugs/common/psychedelics/Hemp.java"
+
+startProcessing "com/podandperson/drugs/common/psychedelics/LSD.java" md5: 66abef74d5955f6d0f950c35c432aab2
+Cache Hit!
+    Compile Error! Pb(2) Hallucinogens cannot be resolved to a type
+@|com/podandperson/drugs/common/psychedelics/LSD.java|8|60|main.java.com.podandperson.drugs.common.psychedelics|package|main.java.com.podandperson.drugs.common.psychedelics|(file)
+Class Start: main.java.com.podandperson.drugs.common.psychedelics.LSD
+   @|com/podandperson/drugs/common/psychedelics/LSD.java|76|79|LSD|class|main.java.com.podandperson.drugs.common.psychedelics.LSD
+   @|com/podandperson/drugs/common/psychedelics/LSD.java|88|101|Hallucinogens|class|Hallucinogens
+Class End  : main.java.com.podandperson.drugs.common.psychedelics.LSD
+endProcessing "com/podandperson/drugs/common/psychedelics/LSD.java"
+
+startProcessing "com/podandperson/drugs/common/psychedelics/Marijuana.java" md5: eca92175be38a8d04c6b37d2dbf67f1e
+Cache Hit!
+    Compile Error! Pb(2) Cannabis cannot be resolved to a type
+@|com/podandperson/drugs/common/psychedelics/Marijuana.java|8|60|main.java.com.podandperson.drugs.common.psychedelics|package|main.java.com.podandperson.drugs.common.psychedelics|(file)
+Class Start: main.java.com.podandperson.drugs.common.psychedelics.Marijuana
+   @|com/podandperson/drugs/common/psychedelics/Marijuana.java|76|85|Marijuana|class|main.java.com.podandperson.drugs.common.psychedelics.Marijuana
+   @|com/podandperson/drugs/common/psychedelics/Marijuana.java|94|102|Cannabis|class|Cannabis
+Class End  : main.java.com.podandperson.drugs.common.psychedelics.Marijuana
+endProcessing "com/podandperson/drugs/common/psychedelics/Marijuana.java"
+
+startProcessing "com/podandperson/drugs/common/psychedelics/Mushrooms.java" md5: 79c0cae4298b6d6e81b00b701d0cf9c6
+Cache Hit!
+    Compile Error! Pb(2) Hallucinogens cannot be resolved to a type
+@|com/podandperson/drugs/common/psychedelics/Mushrooms.java|8|60|main.java.com.podandperson.drugs.common.psychedelics|package|main.java.com.podandperson.drugs.common.psychedelics|(file)
+Class Start: main.java.com.podandperson.drugs.common.psychedelics.Mushrooms
+   @|com/podandperson/drugs/common/psychedelics/Mushrooms.java|76|85|Mushrooms|class|main.java.com.podandperson.drugs.common.psychedelics.Mushrooms
+   @|com/podandperson/drugs/common/psychedelics/Mushrooms.java|94|107|Hallucinogens|class|Hallucinogens
+Class End  : main.java.com.podandperson.drugs.common.psychedelics.Mushrooms
+endProcessing "com/podandperson/drugs/common/psychedelics/Mushrooms.java"
+
+startProcessing "com/podandperson/drugs/common/uppers/Adderall.java" md5: f7a7e20f2dc492dce99b80e3a90ac221
+Cache Hit!
+    Compile Error! Pb(2) Amphetamine cannot be resolved to a type
+@|com/podandperson/drugs/common/uppers/Adderall.java|8|54|main.java.com.podandperson.drugs.common.uppers|package|main.java.com.podandperson.drugs.common.uppers|(file)
+Class Start: main.java.com.podandperson.drugs.common.uppers.Adderall
+   @|com/podandperson/drugs/common/uppers/Adderall.java|70|78|Adderall|class|main.java.com.podandperson.drugs.common.uppers.Adderall
+   @|com/podandperson/drugs/common/uppers/Adderall.java|87|98|Amphetamine|class|Amphetamine
+Class End  : main.java.com.podandperson.drugs.common.uppers.Adderall
+endProcessing "com/podandperson/drugs/common/uppers/Adderall.java"
+
+startProcessing "com/podandperson/drugs/common/uppers/Amphetamine.java" md5: 739481cc7c8fc8ded79e04b80b90df2f
+Cache Hit!
+@|com/podandperson/drugs/common/uppers/Amphetamine.java|8|54|main.java.com.podandperson.drugs.common.uppers|package|main.java.com.podandperson.drugs.common.uppers|(file)
+Class Start: main.java.com.podandperson.drugs.common.uppers.Amphetamine
+   @|com/podandperson/drugs/common/uppers/Amphetamine.java|79|90|Amphetamine|class|main.java.com.podandperson.drugs.common.uppers.Amphetamine
+Class End  : main.java.com.podandperson.drugs.common.uppers.Amphetamine
+endProcessing "com/podandperson/drugs/common/uppers/Amphetamine.java"
+
+startProcessing "com/podandperson/drugs/common/uppers/Cocaine.java" md5: 701036d19b9c42681d97fedb853a049b
+Cache Hit!
+@|com/podandperson/drugs/common/uppers/Cocaine.java|8|54|main.java.com.podandperson.drugs.common.uppers|package|main.java.com.podandperson.drugs.common.uppers|(file)
+Class Start: main.java.com.podandperson.drugs.common.uppers.Cocaine
+   @|com/podandperson/drugs/common/uppers/Cocaine.java|70|77|Cocaine|class|main.java.com.podandperson.drugs.common.uppers.Cocaine
+Class End  : main.java.com.podandperson.drugs.common.uppers.Cocaine
+endProcessing "com/podandperson/drugs/common/uppers/Cocaine.java"
+
+startProcessing "com/podandperson/drugs/common/uppers/Meth.java" md5: 1e95679e2eb4468c6509289e0513cae2
+Cache Hit!
+    Compile Error! Pb(2) Amphetamine cannot be resolved to a type
+@|com/podandperson/drugs/common/uppers/Meth.java|8|54|main.java.com.podandperson.drugs.common.uppers|package|main.java.com.podandperson.drugs.common.uppers|(file)
+Class Start: main.java.com.podandperson.drugs.common.uppers.Meth
+   @|com/podandperson/drugs/common/uppers/Meth.java|70|74|Meth|class|main.java.com.podandperson.drugs.common.uppers.Meth
+   @|com/podandperson/drugs/common/uppers/Meth.java|83|94|Amphetamine|class|Amphetamine
+Class End  : main.java.com.podandperson.drugs.common.uppers.Meth
+endProcessing "com/podandperson/drugs/common/uppers/Meth.java"
+
+startProcessing "com/podandperson/drugs/proxy/ClientProxy.java" md5: 2b2b3312d753b61a9c5d7ccdfb14dd25
+@|com/podandperson/drugs/proxy/ClientProxy.java|8|36|com.podandperson.drugs.proxy|package|com.podandperson.drugs.proxy|(file)
+Class Start: com.podandperson.drugs.proxy.ClientProxy
+   @|com/podandperson/drugs/proxy/ClientProxy.java|261|272|ClientProxy|class|com.podandperson.drugs.proxy.ClientProxy
+   @|com/podandperson/drugs/proxy/ClientProxy.java|284|290|IProxy|class|com.podandperson.drugs.proxy.IProxy
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com/podandperson/drugs/proxy/ClientProxy.java|341|346|event|param|com.podandperson.drugs.proxy.ClientProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|com/podandperson/drugs/proxy/ClientProxy.java|307|314|preInit|method|com.podandperson.drugs.proxy.IProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com/podandperson/drugs/proxy/ClientProxy.java|315|340|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com/podandperson/drugs/proxy/ClientProxy.java|396|401|event|param|com.podandperson.drugs.proxy.ClientProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|com/podandperson/drugs/proxy/ClientProxy.java|368|372|init|method|com.podandperson.drugs.proxy.IProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com/podandperson/drugs/proxy/ClientProxy.java|373|395|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com/podandperson/drugs/proxy/ClientProxy.java|459|464|event|param|com.podandperson.drugs.proxy.ClientProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+      @|com/podandperson/drugs/proxy/ClientProxy.java|423|431|postInit|method|com.podandperson.drugs.proxy.IProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com/podandperson/drugs/proxy/ClientProxy.java|432|458|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+   Method End: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+Class End  : com.podandperson.drugs.proxy.ClientProxy
+endProcessing "com/podandperson/drugs/proxy/ClientProxy.java"
+
+startProcessing "com/podandperson/drugs/proxy/IProxy.java" md5: 8bd457202b03fc2d34105ee87fd0a929
+@|com/podandperson/drugs/proxy/IProxy.java|8|36|com.podandperson.drugs.proxy|package|com.podandperson.drugs.proxy|(file)
+Class Start: com.podandperson.drugs.proxy.IProxy
+   @|com/podandperson/drugs/proxy/IProxy.java|265|271|IProxy|class|com.podandperson.drugs.proxy.IProxy
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com/podandperson/drugs/proxy/IProxy.java|322|327|event|param|com.podandperson.drugs.proxy.IProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|com/podandperson/drugs/proxy/IProxy.java|288|295|preInit|method|com.podandperson.drugs.proxy.IProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com/podandperson/drugs/proxy/IProxy.java|296|321|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com/podandperson/drugs/proxy/IProxy.java|372|377|event|param|com.podandperson.drugs.proxy.IProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|com/podandperson/drugs/proxy/IProxy.java|344|348|init|method|com.podandperson.drugs.proxy.IProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com/podandperson/drugs/proxy/IProxy.java|349|371|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com/podandperson/drugs/proxy/IProxy.java|430|435|event|param|com.podandperson.drugs.proxy.IProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+      @|com/podandperson/drugs/proxy/IProxy.java|394|402|postInit|method|com.podandperson.drugs.proxy.IProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com/podandperson/drugs/proxy/IProxy.java|403|429|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+   Method End: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+Class End  : com.podandperson.drugs.proxy.IProxy
+endProcessing "com/podandperson/drugs/proxy/IProxy.java"
+
