@@ -9,16 +9,19 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.SidedProxy;
+import net.minecraft.creativetab.CreativeTabs;
+import com.podandperson.drugs.tabs.CustomDrugTab;
+import net.minecraft.item.ItemStack;
 
 import com.podandperson.drugs.proxy.*;
 
 @Mod(modid = Drugs.MODID, name = Drugs.NAME, version = Drugs.VERSION, acceptedMinecraftVersions = Drugs.MC_VERSION)
 public class Drugs {
 
-	public static final String MODID = "Drugs";
+	public static final String MODID = "mdm";
 	public static final String NAME = "Minecraft Drugs";
 	public static final String VERSION = "0.0.1";
-	public static final String MC_VERSION = "[1.12.X]";
+	public static final String MC_VERSION = "[1.12.2]";
 
 	public static final Logger LOGGER = LogManager.getLogger(Drugs.MODID);
 
@@ -26,6 +29,8 @@ public class Drugs {
 	public static final String SERVER = "com.podandperson.drugs.proxy.ServerProxy";
 	@SidedProxy(clientSide = Drugs.CLIENT, serverSide = Drugs.SERVER)
 	public static IProxy proxy;
+	
+	public static final CreativeTabs DRUG_TAB = new CustomDrugTab();
 
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event) {

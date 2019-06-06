@@ -1,7 +1,15 @@
 Symbol range map extraction starting
-Processing 14 files
-startProcessing "com/podandperson/drugs/Drugs.java" md5: 29cde1ade78842fff66db6ba075b9c42
+Processing 18 files
+startProcessing "com/podandperson/drugs/Drugs.java" md5: 2cd58fc64826cb7d36870cc86624867a
 endProcessing "com/podandperson/drugs/Drugs.java"
+
+startProcessing "com/podandperson/drugs/EventSubscriber.java" md5: 496ad4b78fd21b604f97edda06209033
+Cache Hit!
+endProcessing "com/podandperson/drugs/EventSubscriber.java"
+
+startProcessing "com/podandperson/drugs/client/ClientEventSubscriber.java" md5: 75976a511bcac137314091b0662cadfa
+Cache Hit!
+endProcessing "com/podandperson/drugs/client/ClientEventSubscriber.java"
 
 startProcessing "com/podandperson/drugs/common/psychedelics/CBD.java" md5: 64e9f3bec63d51a4baae6e930b54e1b5
 Cache Hit!
@@ -47,9 +55,19 @@ startProcessing "com/podandperson/drugs/common/uppers/Meth.java" md5: 1e95679e2e
 Cache Hit!
 endProcessing "com/podandperson/drugs/common/uppers/Meth.java"
 
+startProcessing "com/podandperson/drugs/init/DrugItems.java" md5: 00290522d33b9975809d86b0399a5fa1
+Cache Hit!
+endProcessing "com/podandperson/drugs/init/DrugItems.java"
+
+startProcessing "com/podandperson/drugs/item/lsd.java" md5: fe6a383ec2ae7227ff92cb8d7bc44558
+Cache Hit!
+endProcessing "com/podandperson/drugs/item/lsd.java"
+
 startProcessing "com/podandperson/drugs/proxy/ClientProxy.java" md5: 2b2b3312d753b61a9c5d7ccdfb14dd25
+Cache Hit!
 endProcessing "com/podandperson/drugs/proxy/ClientProxy.java"
 
 startProcessing "com/podandperson/drugs/proxy/IProxy.java" md5: 8bd457202b03fc2d34105ee87fd0a929
+Cache Hit!
 endProcessing "com/podandperson/drugs/proxy/IProxy.java"
 
